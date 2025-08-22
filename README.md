@@ -10,13 +10,15 @@
 ---
 
 ### チームメンバー (Team Members)
-
-* **氏名:** 上原 錬 (Uehara Ren)
-* **氏名:** 石田 菜々美 (Ishida Nanami)
-* **氏名:** 鄧 博文 (Tō Hakubun)
-* **氏名:** 加藤 弘輔 (Katō Kōsuke)
-* **氏名:** 肥田 真紘 (Hida Mahiro)
-* **氏名:** 松浦 一心 (Matsuura Isshin)
+ 
+| 役割 (Role) | 氏名 (Name) |
+|---|---|
+| **チームリーダー**<br>(Team Leader) | 松浦 一心<br>(Matsuura Isshin) |
+| **人事連絡担当**<br>(HR Liaison) | 加藤 弘輔<br>(Katō Kōsuke) |
+| **リポジトリ管理者**<br>(Repo Admin) | 鄧 博文<br>(Tō Hakubun) |
+| **メンバー**<br>(Member) | 上原 錬<br>(Uehara Ren) |
+| **メンバー**<br>(Member) | 石田 菜々美<br>(Ishida Nanami) |
+| **メンバー**<br>(Member) | 肥田 真紘<br>(Hida Mahiro) |
 
 ---
 
@@ -49,16 +51,6 @@
 **3. 発表会（10月3日）：**
     * **内容:** 最終成果物の発表。発表形式はウェブサイトまたはプレゼンテーション資料（PPT）とします。
     * **(Content: Final presentation of the project. The format will be either a website or a presentation slide deck.)**
-
----
-
-### 連絡先 (Contact)
-
-* **チームリーダー:** 松浦 一心  
-* **人事連絡担当:** 加藤 弘輔  
-* **リポジトリ管理者:** 鄧 博文  
-* **メンバー:** 上原 錬  
-* **メンバー:** 石田 菜々美  
-* **メンバー:** 肥田 真紘  
+ 
 
 ---
