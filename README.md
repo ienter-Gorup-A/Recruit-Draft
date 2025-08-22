@@ -15,7 +15,7 @@
 |---|---|
 | **チームリーダー**<br>(Team Leader) | 松浦 一心<br>(Matsuura Isshin) |
 | **人事連絡担当**<br>(HR Liaison) | 加藤 弘輔<br>(Katō Kōsuke) |
-| **リポジトリ管理者**<br>(Repo Admin) | 鄧 博文<br>(Tō Hakubun) |
+| **リポジトリ管理者**<br>(Repo Admin) | 鄧 博文<br>(Den Hakubun) |
 | **メンバー**<br>(Member) | 上原 錬<br>(Uehara Ren) |
 | **メンバー**<br>(Member) | 石田 菜々美<br>(Ishida Nanami) |
 | **メンバー**<br>(Member) | 肥田 真紘<br>(Hida Mahiro) |
