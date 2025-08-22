@@ -1,2 +1,2 @@
-# recruit-site
+# Recruit-Site
 2026年 新卒採用ウェブサイト制作プロジェクト
