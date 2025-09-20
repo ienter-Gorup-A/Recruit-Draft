@@ -9,7 +9,7 @@
 
 ---
 
-### チームメンバー (Team Members)
+### チームメンバー (Team Members) 
  
 | 役割 (Role) | 氏名 (Name) |
 |---|---|
