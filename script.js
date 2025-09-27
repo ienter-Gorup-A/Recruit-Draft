@@ -9,14 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
     let lastScrollY = 0;
     let ticking = false;
 
-    // 移动端菜单切换
     mobileMenuToggle.addEventListener('click', function() {
         this.classList.toggle('active');
         mobileNavOverlay.classList.toggle('active');
         document.body.style.overflow = mobileNavOverlay.classList.contains('active') ? 'hidden' : '';
     });
 
-    // 点击覆盖层关闭菜单
     mobileNavOverlay.addEventListener('click', function(e) {
         if (e.target === this) {
             mobileMenuToggle.classList.remove('active');
@@ -25,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 点击菜单链接后关闭菜单
     mobileNavOverlay.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', function() {
             mobileMenuToggle.classList.remove('active');
@@ -37,23 +34,17 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateOnScroll() {
     const scrollY = window.scrollY;
 
-    // --- 在这里微调消失的时机和过程 ---
     const startFade = 400;
     const fadeDuration = 1200;
 
 
-    // --- 下面的代码会自动根据上面的两个变量进行计算，无需修改 ---
-    // 1. 计算当前滚动位置在“消失区段”内的进度
     const scrollInFadeZone = Math.max(0, scrollY - startFade);
     
-    // 2. 根据进度计算透明度（0.0 ~ 1.0）
     const progress = Math.min(1, scrollInFadeZone / fadeDuration);
     const opacity = 1 - progress;
 
-    // 设置整个 header 元素的透明度
     header.style.opacity = opacity;
 
-    // 当 header 完全透明时，让它可以被“点击穿透”
     if (opacity <= 0) {
         header.style.pointerEvents = 'none';
     } else {
@@ -61,13 +52,12 @@ function updateOnScroll() {
     }
     
 
-    // --- 保留页面其他部分的滚动动画 ---
     const isMobile = window.innerWidth <= 768;
     
     if(heroTextContainer && scrollY < window.innerHeight && !isMobile) {
-        const heroProgress = scrollY / (window.innerHeight * 0.5);
+        const heroProgress = scrollY / (window.innerHeight * 0.8);
         const heroOpacity = Math.max(0, 1 - heroProgress);
-        const heroTranslateY = scrollY * 0.3;
+        const heroTranslateY = scrollY * 0.6;
         heroTextContainer.style.opacity = heroOpacity;
         heroTextContainer.style.transform = `translateY(${heroTranslateY}px)`;
     }
@@ -113,7 +103,6 @@ function updateOnScroll() {
         observer.observe(card);
     });
 
-    // 窗口大小变化时重新检查
     window.addEventListener('resize', function() {
         if (window.innerWidth > 900) {
             mobileMenuToggle.classList.remove('active');
